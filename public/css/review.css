@@ -1,7 +1,7 @@
-
 body {
     font-family: 'Nunito', sans-serif;
 }
+
 .carousel-inner {
     padding: 1em;
 }
@@ -25,7 +25,7 @@ body {
 @media (min-width: 768px) {
     .carousel-item {
         margin-right: 0;
-        flex: 0 0 33.333333%;
+        flex: 0 0 100%;
         display: block;
     }
 
@@ -80,7 +80,7 @@ body {
 }
 
 
-.container-img{
+.container-img {
     height: 400px;
     margin: auto;
     position: relative;
@@ -90,22 +90,23 @@ body {
     overflow: hidden;
 }
 
-.slide-container{
+.slide-container {
     display: flex;
     width: calc(900px * 3);
     animation: scroll 25s linear infinite;
 }
 
 @keyframes scroll {
-    0%{
+    0% {
         transform: translateX(0);
     }
-    100%{
+
+    100% {
         transform: translateX(calc(-200px * 10));
-        }
+    }
 }
 
-.slide-image{
+.slide-image {
     height: auto;
     width: auto;
     display: flex;
@@ -114,11 +115,29 @@ body {
     perspective: 150px;
 }
 
-.img{
+.img {
     width: 50%;
     transition: transform 1s;
 }
 
-img:hover{
+img:hover {
     transform: translateZ(20px);
+}
+
+
+.glyphicon-chevron-left {
+    background: gray;
+    border-radius: 50%;
+    font-size: 25px;
+    left: 0 !important;
+}
+
+.glyphicon-chevron-right {
+    background: gray;
+    border-radius: 50%;
+    font-size: 25px;
+    right: 0 !important;
+}
+.col-md-4 {
+    padding: 0px 0px !important;
 }

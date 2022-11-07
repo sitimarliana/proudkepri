@@ -1,4 +1,3 @@
-// alert("JS OKE")
 function carouse() {
     var multipleCardCarousel = document.querySelector(
         "#carouselExampleControls"

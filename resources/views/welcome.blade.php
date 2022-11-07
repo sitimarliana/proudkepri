@@ -10,7 +10,6 @@
     <meta name="description" content="description here">
     <meta name="keywords" content="keywords,here">
     @include('layouts.landing-page.stylesheet')
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/review.css') }}">
     <link href="{{ asset('img/logo-bar.png') }}" rel="icon" type="image/x-icon">
 
 <body>
@@ -26,9 +25,13 @@
                 <div class="row">
                     <!--Left Col-->
                     <div class="col-sm-6 text-white text-center text-sm-start my-4 my-sm-auto">
-                        <h1 class="fs-1 fw-bold"><b>Why is it Important to <span style="color: #CC9E5F">Build Branding </span> Social Media</b></h1>
+                        <h1 class="fs-1 fw-bold"><b>Why is it Important to <span style="color: #CC9E5F">Build Branding
+                                </span> Social Media</b></h1>
                         <p>Curious? Just scroll for the answer :) </p>
-                        <button style="background: #CC9E5F;" type="button" class="btn btn-lg"><a style="text-decoration: none; color: white;" href="https://wa.me/6281371961901?text=Hi%20I'm%20interesting%20with%20your%20Portfolio%20how%20to%20make%20a%20collaboration%20?"><b>Let's Talk</b></a></button>
+                        <button style="background: #CC9E5F;" type="button" class="btn btn-lg"><a
+                                style="text-decoration: none; color: white;"
+                                href="https://wa.me/6281371961901?text=Hi%20I'm%20interesting%20with%20your%20Portfolio%20how%20to%20make%20a%20collaboration%20?"><b>Let's
+                                    Talk</b></a></button>
                     </div>
                     <!--Right Col-->
                     <div class="col-sm-6 d-flex align-items-end justify-content-center">
@@ -47,7 +50,8 @@
         <div class="container" id="portofolio">
             <!-- Subtittle-->
             <div class="col col-sm-7 text-center mx-auto">
-                <h2><b>So, Do You Want Your Social Media Branding To Look <span style="color: #CC9E5F">Professional</span> Like This?</b></h2>
+                <h2><b>So, Do You Want Your Social Media Branding To Look <span
+                            style="color: #CC9E5F">Professional</span> Like This?</b></h2>
                 <p>We can help you manage and display a professional branding design</p>
             </div>
             <!-- isi -->
@@ -89,62 +93,88 @@
                 <p>We can help you manage and display a professional branding design</p>
             </div>
             <!-- isi -->
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="{{ asset('img/women.jfif') }}" alt="" style=" width: 50px; height: 50px; border-radius: 60%;">
-                                <h5 class=" card-title mt-3">Q-House</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="carousel slide" id="theCarousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-md-4 col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img src="{{ asset('img/women.jfif') }}" alt=""
+                                                style=" width: 50px; height: 50px; border-radius: 60%;">
+                                            <h5 class=" card-title mt-3">Q-House</h5>
+                                            <p class="card-text">With supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-4 col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img src="{{ asset('img/women.jfif') }}" alt=""
+                                                style=" width: 50px; height: 50px; border-radius: 60%;">
+                                            <h5 class=" card-title mt-3">Tanfood</h5>
+                                            <p class="card-text">With supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-4 col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img src="{{ asset('img/women.jfif') }}" alt=""
+                                                style=" width: 50px; height: 50px; border-radius: 60%;">
+                                            <h5 class=" card-title mt-3">Global</h5>
+                                            <p class="card-text">With supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-4 col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img src="{{ asset('img/women.jfif') }}" alt=""
+                                                style=" width: 50px; height: 50px; border-radius: 60%;">
+                                            <h5 class=" card-title mt-3">Global</h5>
+                                            <p class="card-text">With supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-4 col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img src="{{ asset('img/women.jfif') }}" alt=""
+                                                style=" width: 50px; height: 50px; border-radius: 60%;">
+                                            <h5 class=" card-title mt-3">Global</h5>
+                                            <p class="card-text">With supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="{{ asset('img/women.jfif') }}" alt="" style=" width: 50px; height: 50px; border-radius: 60%;">
-                                <h5 class=" card-title mt-3">Tanfood</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="{{ asset('img/women.jfif') }}" alt="" style=" width: 50px; height: 50px; border-radius: 60%;">
-                                <h5 class=" card-title mt-3">Global</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="{{ asset('img/women.jfif') }}" alt="" style=" width: 50px; height: 50px; border-radius: 60%;">
-                                <h5 class=" card-title mt-3">Global</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="{{ asset('img/women.jfif') }}" alt="" style=" width: 50px; height: 50px; border-radius: 60%;">
-                                <h5 class=" card-title mt-3">Global</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                        </div>
+
+                        <a class="left carousel-control" href="#theCarousel" data-slide="prev"
+                            style="background: none;">
+                            <i class="glyphicon glyphicon-chevron-left"></i>
+                        </a>
+                        <a class="right carousel-control" href="#theCarousel" data-slide="next"
+                            style="background: none;">
+                            <i class="glyphicon glyphicon-chevron-right"></i>
+                        </a>
                     </div>
                 </div>
-                <button onclick="carouse()" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button onclick="carouse()" class="carousel-control-next" id="next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
 
@@ -224,32 +254,40 @@
                 <div class="col-6 col-sm-3 mt-3">
                     <div class="card">
                         <div class="card-body">
-                            <img src="{{ asset('img/favorite.png') }}" alt="" style="width: 60px; height: 60px; display: block; margin-left:auto; margin-right:auto">
-                            <h6 class="card-text text-center mt-3">Menampilkan kualitas produk dan membangun kredibilitas brand Anda</h6>
+                            <img src="{{ asset('img/favorite.png') }}" alt=""
+                                style="width: 60px; height: 60px; display: block; margin-left:auto; margin-right:auto">
+                            <h6 class="card-text text-center mt-3">Menampilkan kualitas produk dan membangun
+                                kredibilitas brand Anda</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-sm-3 mt-3">
                     <div class="card">
                         <div class="card-body">
-                            <img src="{{ asset('img/chatting.png') }}" alt="" style="width: 60px; height: 60px; display: block; margin-left:auto; margin-right:auto">
-                            <h6 class="card-text text-center mt-3">Memudahkan interaksi dengan konsumen dan calon konsumen Anda</h6>
+                            <img src="{{ asset('img/chatting.png') }}" alt=""
+                                style="width: 60px; height: 60px; display: block; margin-left:auto; margin-right:auto">
+                            <h6 class="card-text text-center mt-3">Memudahkan interaksi dengan konsumen dan calon
+                                konsumen Anda</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-sm-3 mt-3">
                     <div class="card">
                         <div class="card-body">
-                            <img src="{{ asset('img/graph.png') }}" alt="" style="width: 60px; height: 60px; display: block; margin-left:auto; margin-right:auto">
-                            <h6 class="card-text text-center mt-3">Memudahkan interaksi dengan konsumen dan calon konsumen Anda</h6>
+                            <img src="{{ asset('img/graph.png') }}" alt=""
+                                style="width: 60px; height: 60px; display: block; margin-left:auto; margin-right:auto">
+                            <h6 class="card-text text-center mt-3">Memudahkan interaksi dengan konsumen dan calon
+                                konsumen Anda</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-sm-3 mt-3">
                     <div class="card">
                         <div class="card-body">
-                            <img src="{{ asset('img/profits.png') }}" alt="" style="width: 60px; height: 60px; display: block; margin-left:auto; margin-right:auto">
-                            <h6 class="card-text text-center mt-3">Memudahkan interaksi dengan konsumen dan calon konsumen Anda</h6>
+                            <img src="{{ asset('img/profits.png') }}" alt=""
+                                style="width: 60px; height: 60px; display: block; margin-left:auto; margin-right:auto">
+                            <h6 class="card-text text-center mt-3">Memudahkan interaksi dengan konsumen dan calon
+                                konsumen Anda</h6>
                         </div>
                     </div>
                 </div>
@@ -271,11 +309,13 @@
                         <div class=" card-body">
                             <div class="d-flex">
                                 <div class="flex-shrink-0">
-                                    <img src="{{ asset('img/logo-designer.png') }}" alt="..." style="width: 50px; height: 50px; display: block; margin-left:auto; margin-right:auto">
+                                    <img src="{{ asset('img/logo-designer.png') }}" alt="..."
+                                        style="width: 50px; height: 50px; display: block; margin-left:auto; margin-right:auto">
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <h5><b>Sosial Media Management</b></h5>
-                                    <p>Layanan social media management, membantu membuat konten, desain dan postingan terjadwal di social media Anda.</p>
+                                    <p>Layanan social media management, membantu membuat konten, desain dan postingan
+                                        terjadwal di social media Anda.</p>
                                 </div>
                             </div>
                         </div>
@@ -286,11 +326,13 @@
                         <div class="card-body d-flex flex-row">
                             <div class="d-flex">
                                 <div class="flex-shrink-0">
-                                    <img src="{{ asset('img/consultation.png') }}" alt="..." style="width: 50px; height: 50px; display: block; margin-left:auto; margin-right:auto">
+                                    <img src="{{ asset('img/consultation.png') }}" alt="..."
+                                        style="width: 50px; height: 50px; display: block; margin-left:auto; margin-right:auto">
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <h5><b>Brand Consultant</b></h5>
-                                    <p>Layanan brand consultant, rekomendasi tepat untuk menjadi partner konsultan brand bisnis Anda.<br><br></p>
+                                    <p>Layanan brand consultant, rekomendasi tepat untuk menjadi partner konsultan brand
+                                        bisnis Anda.<br><br></p>
                                 </div>
                             </div>
                         </div>
@@ -301,11 +343,13 @@
                         <div class="card-body d-flex flex-row">
                             <div class="d-flex">
                                 <div class="flex-shrink-0">
-                                    <img src="{{ asset('img/tripod.png') }}" alt="..." style="width: 50px; height: 50px; display: block; margin-left:auto; margin-right:auto">
+                                    <img src="{{ asset('img/tripod.png') }}" alt="..."
+                                        style="width: 50px; height: 50px; display: block; margin-left:auto; margin-right:auto">
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <h5><b>Photografi</b></h5>
-                                    <p>Layanan foto produk untuk brand anda. Dengan photografer profesional dan berpengalaman<br></p>
+                                    <p>Layanan foto produk untuk brand anda. Dengan photografer profesional dan
+                                        berpengalaman<br></p>
                                 </div>
                             </div>
                         </div>
@@ -316,11 +360,13 @@
                         <div class="card-body d-flex flex-row">
                             <div class="d-flex">
                                 <div class="flex-shrink-0">
-                                    <img src="{{ asset('img/graphic-designer.png') }}" alt="..." style="width: 50px; height: 50px; display: block; margin-left:auto; margin-right:auto">
+                                    <img src="{{ asset('img/graphic-designer.png') }}" alt="..."
+                                        style="width: 50px; height: 50px; display: block; margin-left:auto; margin-right:auto">
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <h5><b>Logo Designer</b></h5>
-                                    <p>Layanan desain logo. Desainer professional siap membantu membuat logo anda menjadi berkelas dan profesional<br></p>
+                                    <p>Layanan desain logo. Desainer professional siap membantu membuat logo anda
+                                        menjadi berkelas dan profesional<br></p>
                                 </div>
                             </div>
                         </div>
@@ -344,8 +390,10 @@
                         <div class="card-body">
                             <h1 class="text-center my-5">PAKET PREMIUM</h1>
                             <div class="d-flex justify-content-center my-4">
-                                <img src="{{ asset('img/ig-white.png') }}" alt="" style="width: 30px; height: 30px;float:right;display:block;">
-                                <img src="{{ asset('img/tiktok-white.png') }}" alt="" style="width: 30px; height: 30px; float:right;display:block;" class="ml-2">
+                                <img src="{{ asset('img/ig-white.png') }}" alt=""
+                                    style="width: 30px; height: 30px;float:right;display:block;">
+                                <img src="{{ asset('img/tiktok-white.png') }}" alt=""
+                                    style="width: 30px; height: 30px; float:right;display:block;" class="ml-2">
                             </div>
                             <h1 class="text-center my-4"><span style="color:#FFFF00"><b>RP. 2.750.000</span></b></h1>
                             <ul>
@@ -374,10 +422,14 @@
                         <div class="card-body">
                             <h1 class="text-center my-5"><b>PAKET JUARA</b></h1>
                             <div class="d-flex justify-content-center my-4">
-                                <img src="{{ asset('img/instagram.png') }}" alt="" style="width: 30px; height: 30px;float:right;display:block;">
-                                <img src="{{ asset('img/tik-tok.png') }}" alt="" style="width: 30px; height: 30px; float:right;display:block;" class="ml-2">
-                                <img src="{{ asset('img/whatsapp.png') }}" alt="" style="width: 30px; height: 30px;float:right;display:block;" class="ml-2">
-                                <img src="{{ asset('img/facebook.png') }}" alt="" style="width: 30px; height: 30px; float:right;display:block;" class="ml-1">
+                                <img src="{{ asset('img/instagram.png') }}" alt=""
+                                    style="width: 30px; height: 30px;float:right;display:block;">
+                                <img src="{{ asset('img/tik-tok.png') }}" alt=""
+                                    style="width: 30px; height: 30px; float:right;display:block;" class="ml-2">
+                                <img src="{{ asset('img/whatsapp.png') }}" alt=""
+                                    style="width: 30px; height: 30px;float:right;display:block;" class="ml-2">
+                                <img src="{{ asset('img/facebook.png') }}" alt=""
+                                    style="width: 30px; height: 30px; float:right;display:block;" class="ml-1">
                             </div>
                             <h1 class="text-center my-4"><span style="color: #CC9E5F"><b>RP. 5.800.000</span></b></h1>
                             <ul>
@@ -409,12 +461,17 @@
         <div class="container my-5 mt-5 mb-5" id="call-me">
             <!--Left Col-->
             <div class="col col-sm-7 text-center mx-auto ">
-                <h2 class="fs-1 fw-bold my-1 py-5" style="color:black;">Are you interested in us managing your social media brand?</h2>
-                <button style="background: #CC9E5F;" type="button" class="btn-lg btn rounded shadow fw-bold"><a style="text-decoration: none; color: white;" href="https://wa.me/6281371961901?text=Hi%20I'm%20interesting%20with%20your%20Portfolio%20how%20to%20make%20a%20collaboration%20?">Contact Us</a></button>
+                <h2 class="fs-1 fw-bold my-1 py-5" style="color:black;">Are you interested in us managing your social
+                    media brand?</h2>
+                <button style="background: #CC9E5F;" type="button" class="btn-lg btn rounded shadow fw-bold"><a
+                        style="text-decoration: none; color: white;"
+                        href="https://wa.me/6281371961901?text=Hi%20I'm%20interesting%20with%20your%20Portfolio%20how%20to%20make%20a%20collaboration%20?">Contact
+                        Us</a></button>
             </div>
             <!--Right Col-->
             <div>
-                <img src="{{ asset('img/foto-kedua-line.png') }}" alt="Logo" class="img-fluid w-50 my-5" style="margin-left:auto;margin-right:auto;display:bloack;">
+                <img src="{{ asset('img/foto-kedua-line.png') }}" alt="Logo" class="img-fluid w-50 my-5"
+                    style="margin-left:auto;margin-right:auto;display:bloack;">
             </div>
         </div>
         <!-- /Hubungi Kami-->
